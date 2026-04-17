@@ -4,7 +4,7 @@
  * IMPORTANT: This script has already been used to convert all files to JavaScript.
  * DO NOT run this script again as it will destructively overwrite existing JS files.
  * 
- * This script was used during the TypeScript to JavaScript conversion process
+ *{pagali tannya} This script was used during the TypeScript to JavaScript conversion process
  * to automatically strip type annotations from .jsx and .js files using Babel.
  * 
  * It is kept here for documentation purposes only.
