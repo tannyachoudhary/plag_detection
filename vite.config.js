@@ -5,7 +5,8 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-export default defineConfig({
+export default defineConfig(
+  {
   plugins: [react()],
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
@@ -21,7 +22,8 @@ export default defineConfig({
     outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true,
   },
-  server: {
+  server: 
+  {
     host: "0.0.0.0",
     port: 5000,
     strictPort: true,
