@@ -9,11 +9,13 @@ export default tseslint.config(
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ["**/*.{ts,tsx}"],
-    languageOptions: {
+    languageOptions: 
+    {
       ecmaVersion: 2020,
       globals: globals.browser,
     },
-    plugins: {
+    plugins: 
+    {
       "react-hooks": reactHooks,
       "react-refresh": reactRefresh,
     },
